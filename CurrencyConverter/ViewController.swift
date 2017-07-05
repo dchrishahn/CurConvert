@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         poundLabel.text = "\(dollarAmount * poundRate)"
         yenLabel.text = "\(dollarAmount * yenRate)"
         euroLabel.text = "\(dollarAmount * euroRate)"
+        kroneLabel.text = "\(dollarAmount * kroneRate)"
         dollarAmount = 0.0
     }
     
@@ -27,10 +28,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var poundLabel: UILabel!
     @IBOutlet weak var yenLabel: UILabel!
     @IBOutlet weak var euroLabel: UILabel!
+    @IBOutlet weak var kroneLabel: UILabel!
     
     let poundRate = 0.69
     let yenRate = 113.94
     let euroRate = 0.89
+    let kroneRate = 6.55
     var dollarAmount = 0.0
     
     // called when the return key is pressed ...

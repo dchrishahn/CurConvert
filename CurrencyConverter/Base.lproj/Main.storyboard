@@ -92,6 +92,20 @@
                                     <action selector="clearTextField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="spV-eT-aDE"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Krone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9R-9e-bsA">
+                                <rect key="frame" x="35" y="322" width="61" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RV4-VZ-Jqs">
+                                <rect key="frame" x="128" y="322" width="84" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -103,13 +117,14 @@
                     <connections>
                         <outlet property="euroLabel" destination="vBB-wf-Qhn" id="aQM-IY-P6A"/>
                         <outlet property="inputTextField" destination="Sf3-a5-oG7" id="aUI-T5-uyk"/>
+                        <outlet property="kroneLabel" destination="RV4-VZ-Jqs" id="BNM-me-y01"/>
                         <outlet property="poundLabel" destination="oaF-9B-l3V" id="ekf-m2-3K5"/>
                         <outlet property="yenLabel" destination="t5l-fH-dlQ" id="Fni-wC-RM4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-265" y="-167"/>
+            <point key="canvasLocation" x="-462" y="-457"/>
         </scene>
     </scenes>
     <resources>
